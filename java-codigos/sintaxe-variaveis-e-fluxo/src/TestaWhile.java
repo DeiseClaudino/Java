@@ -5,7 +5,8 @@ public class TestaWhile {
 		
 		while(contador <= 10) {
 			System.out.println(contador);
-			contador = contador+1;
+			contador += 1;
+			//Outras formas de calculo: contador = contador+1; ++contador; *O pós decremento causará loop infinito de 0.
 		}
 	}
 }
