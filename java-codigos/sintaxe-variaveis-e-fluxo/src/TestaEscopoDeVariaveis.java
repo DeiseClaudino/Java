@@ -5,12 +5,13 @@ public class TestaEscopoDeVariaveis {
 		int idade = 20;
 		int quantidadePessoas = 3;
         //boolean acompanhado = quantidadePessoas >= 2;
+		boolean acompanhado;
 		
 		if(quantidadePessoas>= 2) {
-			boolean acompanhado = true;
+			 acompanhado = true;
 		}
 		else {
-			boolean acompanhado = false;
+			 acompanhado = false;
 		}
 		System.out.println("O valor de acompanhado é " + acompanhado);
 	
