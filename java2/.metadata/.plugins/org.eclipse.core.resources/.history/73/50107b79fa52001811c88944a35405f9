@@ -24,7 +24,6 @@ public class CriaConta {
     
     System.out.println();
     
-    //Essa condicional compara as referências ao objeto Conta, como a instanciamos duas vezes, elas são diferentes.
     if(primeiraConta == segundaConta) {
     	System.out.println("São iguais");
     	

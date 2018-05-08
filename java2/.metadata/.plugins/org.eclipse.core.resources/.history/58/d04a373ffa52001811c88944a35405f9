@@ -21,18 +21,6 @@ public class CriaConta {
     System.out.println("A agencia é " +primeiraConta.agencia);
     System.out.println("A agencia da segunda conta é " +segundaConta.agencia);
     System.out.println("O titular é " +primeiraConta.titular);
-    
-    System.out.println();
-    
-    //Essa condicional compara as referências ao objeto Conta, como a instanciamos duas vezes, elas são diferentes.
-    if(primeiraConta == segundaConta) {
-    	System.out.println("São iguais");
-    	
-    }else {
-    	System.out.println("São diferentes");
-    }
-    System.out.println(primeiraConta);
-    System.out.println(segundaConta);
     }
 }
 
