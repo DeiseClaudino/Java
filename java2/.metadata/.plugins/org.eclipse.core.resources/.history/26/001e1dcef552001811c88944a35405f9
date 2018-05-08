@@ -16,8 +16,6 @@ public class CriaConta {
 
     System.out.println();
     
-    
-    segundaConta.agencia = 146;
     System.out.println("A agencia é " +primeiraConta.agencia);
     System.out.println("A agencia da segunda conta é " +segundaConta.agencia);
     System.out.println("O titular é " +primeiraConta.titular);
