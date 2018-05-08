@@ -8,10 +8,4 @@ public class Conta {
 		
 		this.saldo += valor;
 	}
-	
-	void saca(double valor) {
-		
-		this.saldo-= valor;
-		
-	}
 }

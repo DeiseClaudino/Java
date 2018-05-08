@@ -9,9 +9,5 @@ public class TestaMetodo {
 		contaDoPaulo.deposita(50);		
 		
 		System.out.println("Após o depósito, o valor atual é R$ " +contaDoPaulo.saldo);
-		
-		contaDoPaulo.saca(20);
-		
-		System.out.println("Após o saque, seu saldo é R$ " +contaDoPaulo.saldo);
 	}
 }
