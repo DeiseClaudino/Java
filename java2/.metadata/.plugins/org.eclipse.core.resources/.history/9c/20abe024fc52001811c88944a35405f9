@@ -20,10 +20,9 @@ public class TestaReferencias {
 		
 		
 		if(primeiraConta == segundaConta) {
-			System.out.println("São iguais");
+			Sout("São iguais");
 			
 		}
-		System.out.println(primeiraConta);
-		System.out.println(segundaConta);
+		
 	}
 }

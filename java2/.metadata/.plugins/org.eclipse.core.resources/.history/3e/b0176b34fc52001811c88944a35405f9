@@ -23,7 +23,6 @@ public class TestaReferencias {
 			System.out.println("São iguais");
 			
 		}
-		System.out.println(primeiraConta);
-		System.out.println(segundaConta);
+		
 	}
 }
