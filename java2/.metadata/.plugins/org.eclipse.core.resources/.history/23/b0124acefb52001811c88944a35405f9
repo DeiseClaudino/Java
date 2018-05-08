@@ -9,14 +9,7 @@ public class TestaReferencias {
 		
 		Conta segundaConta = primeiraConta;
 		System.out.println("a segunda conta tem " +segundaConta.saldo);
-		
-		System.out.println();
-		
-		segundaConta.saldo+= 100;
-		
-		System.out.println("O novo saldo da segunda conta é " +segundaConta.saldo);
-		
-		System.out.println("A primeira conta permanece com " +primeiraConta.saldo);
+
 		
 	}
 }
