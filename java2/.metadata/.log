@@ -2705,3 +2705,9 @@ Caused by: java.io.IOException: Server returned HTTP response code: 407 for URL:
 	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
 	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:852)
 	... 10 more
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-08 17:03:29.173
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-08 17:03:29.174
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
