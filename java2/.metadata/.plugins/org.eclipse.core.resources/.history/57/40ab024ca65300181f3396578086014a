@@ -11,7 +11,7 @@ public class TestaMetodo {
 		System.out.println("Após o depósito, o valor atual é R$ " +contaDoPaulo.saldo);
 		
 		
-		boolean conseguiuRetirar = contaDoPaulo.saca(20);
+		boolean conseguiuRetirar = contaDoPaulo.saca(160);
 		
 		System.out.println("Após o saque, seu saldo é R$ " +contaDoPaulo.saldo);
 		
