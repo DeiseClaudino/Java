@@ -1,8 +1,8 @@
 public class Conta {
 	private double saldo;
-	int agencia =42;
-	int numero;
-	Cliente titular;
+	private int agencia;
+	private int numero;
+	private Cliente titular;
 	
 	/*Cliente titular = new Cliente(); já inicializa a classe cliente a partir 
 	do momento que é inicializada a classe Conta */
@@ -41,5 +41,13 @@ public class Conta {
 	
 	public double getSaldo() {
 		return this.saldo;
+	}
+	
+	public int getnumero(){
+		return this.numero;
+	}
+	
+	public void setNumero(int novoNumero) {
+		this.numero = novoNumero;
 	}
 }

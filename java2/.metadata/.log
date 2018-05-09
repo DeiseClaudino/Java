@@ -4481,3 +4481,15 @@ Caused by: java.io.IOException: Server returned HTTP response code: 407 for URL:
 	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:527)
 	at org.eclipse.jdt.internal.core.JavaElement.getURLContents(JavaElement.java:852)
 	... 8 more
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-09 18:23:50.477
+!MESSAGE System property http.proxyHost is set to proxy.devel but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-09 18:23:50.477
+!MESSAGE System property http.proxyPort is set to 8180 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-09 18:23:50.477
+!MESSAGE System property https.proxyHost is set to proxy.devel but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-09 18:23:50.477
+!MESSAGE System property https.proxyPort is set to 8180 but should not be set.
