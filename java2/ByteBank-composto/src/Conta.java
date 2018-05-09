@@ -4,6 +4,9 @@ public class Conta {
 	int numero;
 	Cliente titular;
 	
+	/*Cliente titular = new Cliente(); já inicializa a classe cliente a partir 
+	do momento que é inicializada a classe Conta */
+	
 	public void deposita(double valor) {
 		//saldo = saldo + valor
 		this.saldo += valor;
