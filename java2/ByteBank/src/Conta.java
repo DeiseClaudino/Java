@@ -1,5 +1,5 @@
 public class Conta {
-	private double saldo;
+	double saldo;
 	int agencia =42;
 	int numero;
 	String titular;
@@ -36,7 +36,4 @@ public class Conta {
 		}
 	}
 	
-	public double pegaSaldo() {
-		return this.saldo;
-	}
 }

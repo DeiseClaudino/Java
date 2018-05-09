@@ -1,5 +1,5 @@
 public class Conta {
-	double saldo;
+	private double saldo;
 	int agencia =42;
 	int numero;
 	Cliente titular;
@@ -37,5 +37,9 @@ public class Conta {
 			System.out.println("Saldo menor que o solicitado na transferência");
 			return false;
 		}
+	}
+	
+	public double pegaSaldo() {
+		return this.saldo;
 	}
 }
