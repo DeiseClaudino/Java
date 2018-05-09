@@ -3415,3 +3415,9 @@ java.lang.NullPointerException
 
 !ENTRY org.eclipse.core.net 1 0 2018-05-09 14:16:20.864
 !MESSAGE System property https.proxyPort is set to 8180 but should not be set.
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-09 14:58:49.639
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2018-05-09 14:58:49.639
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
