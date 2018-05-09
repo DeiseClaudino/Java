@@ -23,7 +23,5 @@ public class TestaMetodo {
 		contaDaMarcela.transfere(300, contaDoPaulo);
 		
 		System.out.println("Após a transferência, a conta da Marcela ficou com R$ "+contaDaMarcela.saldo);
-		
-		System.out.println("Após a transferência, a conta do Paulo ficou com R$ "+contaDoPaulo.saldo);
 	}
 }

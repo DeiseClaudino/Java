@@ -3403,3 +3403,15 @@ java.lang.NullPointerException
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1472)
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-09 14:16:20.861
+!MESSAGE System property http.proxyHost is set to proxy.devel but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-09 14:16:20.862
+!MESSAGE System property http.proxyPort is set to 8180 but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-09 14:16:20.863
+!MESSAGE System property https.proxyHost is set to proxy.devel but should not be set.
+
+!ENTRY org.eclipse.core.net 1 0 2018-05-09 14:16:20.864
+!MESSAGE System property https.proxyPort is set to 8180 but should not be set.
