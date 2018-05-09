@@ -7,5 +7,8 @@ public class TestaBanco {
 		paulo.nome = "Paulo Silveira";
 		paulo.cpf = "222.222.222.22";
 		paulo.profissao = "Programador";
+		
+		Conta contaDoPaulo = new Conta();
+		contaDoPaulo.deposita(100);
 	}
 }
