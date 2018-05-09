@@ -22,13 +22,12 @@ public class Conta {
 		
 	}
 	
-	//    boolean sucessoTransferencia = contaDaMarcela.transfere(300, contaDoPaulo);
 	public boolean transfere(double valor, Conta destino) {
 		if(this.saldo>= valor) {
 			this.saldo-= valor;
 			destino.deposita(valor);
-			System.out.println("Transferido com sucesso!");
-			return true;	
+			return true;
+			System.out.println("Transferência com sucesso");
 			
 		}else {
 			System.out.println("Saldo menor que o solicitado na transferência");

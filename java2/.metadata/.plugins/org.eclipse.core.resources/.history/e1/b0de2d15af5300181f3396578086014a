@@ -22,7 +22,6 @@ public class Conta {
 		
 	}
 	
-	//    boolean sucessoTransferencia = contaDaMarcela.transfere(300, contaDoPaulo);
 	public boolean transfere(double valor, Conta destino) {
 		if(this.saldo>= valor) {
 			this.saldo-= valor;
