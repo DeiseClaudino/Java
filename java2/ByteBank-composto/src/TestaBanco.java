@@ -10,5 +10,13 @@ public class TestaBanco {
 		
 		Conta contaDoPaulo = new Conta();
 		contaDoPaulo.deposita(100);
+		
+		contaDoPaulo.titular = paulo;
+		System.out.println(contaDoPaulo.titular.nome);
+		
+		/*System.out.println(paulo.nome); como contaDoPaulo atribuiu o valor da
+		 *  variável paulo, podemos usar também essa forma para imprimir o nome 
+		 *  do titular na tela já que eles referenciam ao mesmo objeto.
+		 */
 	}
 }
