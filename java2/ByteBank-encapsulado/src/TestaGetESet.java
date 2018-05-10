@@ -10,8 +10,9 @@ public class TestaGetESet {
 		
 		
 		Cliente paulo = new Cliente();
-		
+		paulo.setNome("Paulo Silveira");
 		conta.setTitular(paulo);
 		
+		System.out.println(conta.getTitular().getNome());
 	}
 }
