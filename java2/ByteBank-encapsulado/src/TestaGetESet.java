@@ -17,7 +17,7 @@ public class TestaGetESet {
 		
 		conta.getTitular().setProfissao("programador");
 		
-		
+		//System.out.println(paulo.getNome()); outa forma de impimir o nome do cliente
 		
 		System.out.println(conta.getTitular().getProfissao());
 	}
