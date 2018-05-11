@@ -11,7 +11,8 @@ public class TestaValores {
 		
 		Conta conta2 = new Conta(2334,12354);
 	
-		Conta conta3 = new Conta(8765,43210 );		
-		System.out.println(Conta.total);
+		Conta conta3 = new Conta(8765,43210 );	
+		
+		System.out.println(Conta.getTotal());
 	}
 }

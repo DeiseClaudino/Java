@@ -59,6 +59,9 @@ public class Conta {
 	
 	public void setNumero(int numero) {
 		this.numero = numero;
+		if(numero<= 0) {
+			System.out.println("Não é permitido valores abaixo ou igual a 0");
+		}
 	}
 	
 	public int getAgencia() {
@@ -82,7 +85,7 @@ public class Conta {
 		this.titular = titular;
 	}
 	
-	public int getTotal() {
-		return this.total;
-	}
+	public static int getTotal() {
+		return Conta.total;
+		}
 }
