@@ -5,9 +5,16 @@ public class Carro {
 	private double preco;
 	
 	public Carro(int ano, String modelo, double preco) {
-		this.ano = ano;
-		this.modelo = modelo;
+		if(ano>=1891) {
+			this.ano = ano;	
+		}
+		if(modelo != null) {
+			this.modelo = modelo;	
+		}
+		if(preco > 0) {
+			
 		this.preco = preco;
+		}
 	}
 	
 	public Carro(String modelo, double preco) {
