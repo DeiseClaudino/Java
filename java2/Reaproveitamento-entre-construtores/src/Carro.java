@@ -10,6 +10,17 @@ public class Carro {
 		this.preco = preco;
 	}
 	
+	public Carro(String modelo, double preco) {
+		this.ano = 2017;
+		this.modelo = modelo;
+		this.preco = preco;
+	}
+	
+	
+	
+	
+	
+	
 	public int getAno() {
 		return ano;
 	}
