@@ -9,5 +9,8 @@ public class DeclaraCarro {
 		
 		Carro outroCarro = new Carro("Civic", 25000.0);
 		System.out.println(outroCarro.getModelo());
+
+		System.out.println(outroCarro);
+		System.out.println(carro);
 	}
 }
