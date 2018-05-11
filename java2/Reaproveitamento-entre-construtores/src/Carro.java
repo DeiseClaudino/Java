@@ -3,9 +3,17 @@ public class Carro {
 	private int ano;
 	private String modelo;
 	private double preco;
+	
+	public Carro(int ano, String modelo, double preco) {
+		this.ano = ano;
+		this.modelo = modelo;
+		this.preco = preco;
+	}
+	
 	public int getAno() {
 		return ano;
 	}
+	
 	public void setAno(int ano) {
 		this.ano = ano;
 	}
