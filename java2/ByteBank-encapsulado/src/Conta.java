@@ -54,9 +54,20 @@ public class Conta {
 		return this.numero;
 	}
 	
+	public void setNumero(int numero) {
+		this.numero = numero;
+	}
 	
 	public int getAgencia() {
 		return this.agencia;
+	}
+	
+	public void setAgencia(int agencia) {
+		this.agencia = agencia;
+		if(agencia<= 0) {
+			System.out.println("Não é permitido valor menor ou igual a zero");
+			return;
+		}
 	}
 	
 	
