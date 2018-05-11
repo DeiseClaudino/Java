@@ -57,6 +57,10 @@ public class Conta {
 	
 	public void setAgencia(int agencia) {
 		this.agencia = agencia;
+		if(agencia<= 0) {
+			System.out.println("Não é permitido valor menor ou igual a zero");
+			return;
+		}
 	}
 	
 	
