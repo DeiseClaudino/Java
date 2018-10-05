@@ -18,7 +18,6 @@ public class Polegada
 		milimetro = polegada * milimetroc;
 		
 		System.out.println("O resultado é: "+  milimetro);
-		
 	}
 
 }
